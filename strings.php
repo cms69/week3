@@ -10,10 +10,10 @@
 							  	
 									  $array1
 									  =
-									  array("Sanket","Dhananjay");
+									  array("Chaitanya","Taral");
 									  	  $array2
 										  =
-										  array("Shweta","Priyanka","Shriya");
+										  array("Harsh","Parth","Jeet");
 										  	  $obj->mergeArray($array1,$array2);
 											  	
 													  $array3
@@ -55,12 +55,12 @@
 																								  		
 																											  $array8
 																											  =
-																											  array("mango","banana");
+																											  array("Ferrari","Opel");
 																											  	  $obj->arrayPush($array8);
 																												  	
 																														  $array9
 																														  =
-																														  array("lion","tiger","cheetah");
+																														  array("Apple","Banana","Cherry");
 																														  	  $obj->arrayShift($array9);
 																															  	
 																																	  $array10
@@ -79,24 +79,24 @@
 																																				  	  $obj->arrayReverse($array11);
 																																					  	
 																																							  $str=
-																																							  'abcdef';
+																																							  'qwert';
 																																							  	  $str1='ABCDEF';
-																																								  	  $str2='hello
-																																									  friend
-																																									  how
-																																									  are
-																																									  you';
+																																								  	  $str2='My
+																																							  		name
+																																									  is
+																																									  Chaitanya';
+																								             						
 																																									  	  $number
 																																										  =
-																																										  1234.56;
+																																										  1443.99;
 																																										  	  $pizza
 																																											  =
-																																											  "piece1
-																																											  piece2
-																																											  piece3
-																																											  piece4
-																																											  piece5
-																																											  piece6";
+																																											  "slice1
+																																										   slice2
+																																											  slice3
+																																											  slice4
+																																											  slice5
+																																											  slice6";
 																																											  	  $obj->stringLength($str);
 																																												  	  $obj->stringReverse($str);
 																																													  	  $obj->stringToUpper($str);
@@ -119,8 +119,8 @@
 																																																											
 																																																														echo
 																																																														'<h2>
-																																																														Sanket
-																																																														Pednekar
+																																																														Chaitanya  
+																																																                             Shah
 																																																														</h2></br>
 																																																														Week
 																																																														3
@@ -319,7 +319,7 @@
 																																																																																																																																																																																																																																						function
 																																																																																																																																																																																																																																						demo
 																																																																																																																																																																																																																																						</h1>';
-																																																																																																																																																																																																																																									array_push($array8,"apple","orange");
+																																																																																																																																																																																																																																									array_push($array8,"Mercedes","BMW");
 																																																																																																																																																																																																																																												print_r($array8);
 																																																																																																																																																																																																																																															echo
 																																																																																																																																																																																																																																															'<hr>';
